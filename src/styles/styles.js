@@ -1,0 +1,86 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f0f4f8",
+  },
+  map: {
+    flex: 1,
+  },
+  formCard: {
+    position: "absolute",
+    top: 20,
+    left: 20,
+    right: 20,
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 15,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#333",
+    marginBottom: 10,
+    textAlign: "center",
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 8,
+    padding: 10,
+    fontSize: 16,
+    color: "#333",
+    backgroundColor: "#fff",
+    marginBottom: 10,
+  },
+  button: {
+    backgroundColor: "#007bff",
+    borderRadius: 8,
+    padding: 12,
+    alignItems: "center",
+  },
+  buttonDisabled: {
+    backgroundColor: "#99ccff",
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "600",
+  },
+  routeCard: {
+    position: "absolute",
+    bottom: 20,
+    left: 20,
+    right: 20,
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 15,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  routeTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#007bff",
+    marginBottom: 5,
+  },
+  routeText: {
+    fontSize: 16,
+    color: "#333",
+    marginBottom: 2,
+  },
+  routeSubText: {
+    fontSize: 14,
+    color: "#666",
+    marginTop: 4,
+  },
+});
